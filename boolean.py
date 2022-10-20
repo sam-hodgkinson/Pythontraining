@@ -1,7 +1,3 @@
-from operator import truediv
-from telnetlib import theNULL
-
-
 num1 = float(input('Enter your first number: '))
 num2 = float(input('Enter your second number: '))
 if num1 > num2:
