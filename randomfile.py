@@ -1,7 +1,7 @@
-biology = input("Please enter your Biology marks: ")
-chemistry = input("Please enter your Chemistry marks: ")
-physics = input("Please enter your Physics marks: ")
-total = int(biology) + int(chemistry) + int(physics)
-average = float(total/3)
-print('Your average score is: ')
-print(round(average,2))
+def string_length(str1):
+    count = 0
+    for char in str1:
+        count += 1
+    return count
+print(string_length('sam'))
+
