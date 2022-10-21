@@ -7,10 +7,8 @@ books ={
 "Stephen King" : ["IT"]
 }
 
-author = input("Enter the name of the author: ")
+authorname = input("Please enter autor name: ")
 
-key = books.keys
 for key in books:
-    authorname = input("Please enter autor name: ")
     if authorname == key:
         print(f"Book title {books[key]}")
